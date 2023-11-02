@@ -1,0 +1,171 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+
+  font-size: 1.6rem;
+  line-height: 2;
+  background-color: rgb(229 231 235);
+  font-family: 'Lato';
+
+}
+
+img{
+max-width: 100%;
+display: block;
+}
+
+/*usar siempre para centar los elemmentos*/
+
+.contenedor{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* indica a todas las imgenes a tomar a medida de su div */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+.header{
+  color: rgb(74, 73, 73);
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 4rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+ 
+
+  
+
+}
+
+
+
+
+
+.header h1{
+  margin-bottom: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.inputRange input{
+  width: 40rem;
+  color: green;
+}
+
+.inputRange{
+  padding: 3rem 5rem;
+}
+
+.container{
+  background-color: white;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.amount{
+  font-size: 2.5rem;
+  color:rgb(67 56 202) ;
+ 
+}
+
+.amount h2{
+  margin: 0;
+}
+.btn{
+  background-color: #0C356A;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  font-weight: 900;
+  cursor: pointer;
+  transform:  scale(1)
+  
+
+}
+
+
+.btn:hover {
+  transform: scale(1.1);
+  background-color:#1e58a4 ;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.select{
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(53, 52, 52);
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  
+}
+
+.resumen-contenedor{
+  background-color: rgb(244 244 245);
+  width: 100%;
+  padding: 2rem 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  line-height: 1;
+  color: black;
+  font-weight: bold;
+}
+
+.resumen-contenedor h3{
+  font-size: 2.5rem;
+}
+
+.resumen-contenedor p{
+  font-size: 2.5rem;
+}
+
+.shadow{
+  border-radius: 1rem;
+  box-shadow: 16px 23px 20px -11px rgba(0,0,0,0.73);
+-webkit-box-shadow: 16px 23px 20px -11px rgba(0,0,0,0.73);
+-moz-box-shadow: 16px 23px 20px -11px rgba(0,0,0,0.73);
+
+}
+
+.resumen-container p{
+  line-height: normal;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+span{
+  color: #416595;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+.amounts{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+
+}
+
+
+
+
